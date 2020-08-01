@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     tty: true
     volumes:
-      - ../code:/root/code:delegated
+      - ${CODE_PATH}:/root/code:delegated
 #    ports:
 #       - "${HTTP_PORT}:80"
     networks:

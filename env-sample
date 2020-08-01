@@ -1,3 +1,7 @@
 # Copy this file to .env. You can change the 
 # variables if you want.
 CONTAINER_NAME=phprc
+
+# The code in this repo is here, but maybe 
+# you want to move it somewhere else?
+CODE_PATH=./code

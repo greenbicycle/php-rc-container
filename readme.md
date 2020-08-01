@@ -1,2 +1,18 @@
 # php-rc-container
-A docker container to play with the latest release candidate of PHP
+
+A docker container to play with the Official latest release candidate of PHP
+
+## Setup
+
+* This assumes that you have Docker installed and can run docker commands.
+
+## After cloning
+
+You should be able to run the following:
+
+`docker-compose up -d`
+
+To enter the container:
+
+`docker exec -it <container-name> bash`
+
