@@ -1,0 +1,3 @@
+# Copy this file to .env. You can change the 
+# variables if you want.
+CONTAINER_NAME=phprc
